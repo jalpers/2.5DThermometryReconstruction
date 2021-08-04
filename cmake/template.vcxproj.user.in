@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Local Debugger Settings (Command Arguments and Environment Variables) for All Configures -->
+  <PropertyGroup>
+    <LocalDebuggerCommandArguments>@COMMAND_ARGUMENTS@</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>Path=@ENVIRONMENT_VARIABLES@;%Path%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
